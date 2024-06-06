@@ -1,0 +1,1 @@
+I had to create this file to create the embree/common subfolder in GitHub.
