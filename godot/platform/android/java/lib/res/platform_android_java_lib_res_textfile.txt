@@ -1,0 +1,1 @@
+In order to create the res subfolder in GitHub I wrote this file.
