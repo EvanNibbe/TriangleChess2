@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://be2nvhp023jf8"
+path="res://.godot/imported/triangle_chess_spiral_rook_2.obj-400137f978ba2a1b353290e4b6ccb086.mesh"
+
+[deps]
+
+files=["res://.godot/imported/triangle_chess_spiral_rook_2.obj-400137f978ba2a1b353290e4b6ccb086.mesh"]
+
+source_file="res://Imports/triangle_chess_spiral_rook_2.obj"
+dest_files=["res://.godot/imported/triangle_chess_spiral_rook_2.obj-400137f978ba2a1b353290e4b6ccb086.mesh", "res://.godot/imported/triangle_chess_spiral_rook_2.obj-400137f978ba2a1b353290e4b6ccb086.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

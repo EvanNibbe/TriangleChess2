@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://be5yj23n2722i"
+path="res://.godot/imported/triangle_chess_king_2.obj-ffd86ee1d5d659a22464ff82cd15f489.mesh"
+
+[deps]
+
+files=["res://.godot/imported/triangle_chess_king_2.obj-ffd86ee1d5d659a22464ff82cd15f489.mesh"]
+
+source_file="res://Imports/triangle_chess_king_2.obj"
+dest_files=["res://.godot/imported/triangle_chess_king_2.obj-ffd86ee1d5d659a22464ff82cd15f489.mesh", "res://.godot/imported/triangle_chess_king_2.obj-ffd86ee1d5d659a22464ff82cd15f489.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

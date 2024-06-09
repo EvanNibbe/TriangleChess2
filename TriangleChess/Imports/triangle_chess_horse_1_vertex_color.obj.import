@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dll3dyw6wvegw"
+path="res://.godot/imported/triangle_chess_horse_1_vertex_color.obj-6eaa8534f77ede4527fa352e1b25f458.mesh"
+
+[deps]
+
+files=["res://.godot/imported/triangle_chess_horse_1_vertex_color.obj-6eaa8534f77ede4527fa352e1b25f458.mesh"]
+
+source_file="res://Imports/triangle_chess_horse_1_vertex_color.obj"
+dest_files=["res://.godot/imported/triangle_chess_horse_1_vertex_color.obj-6eaa8534f77ede4527fa352e1b25f458.mesh", "res://.godot/imported/triangle_chess_horse_1_vertex_color.obj-6eaa8534f77ede4527fa352e1b25f458.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://nbv7u1trsdn6"
+path="res://.godot/imported/triangle_chess_base_hexagon_colored_2_red_with_different_geometry.obj-971a36a25fe9dbd24588aba602edbbd1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/triangle_chess_base_hexagon_colored_2_red_with_different_geometry.obj-971a36a25fe9dbd24588aba602edbbd1.mesh"]
+
+source_file="res://Imports/triangle_chess_base_hexagon_colored_2_red_with_different_geometry.obj"
+dest_files=["res://.godot/imported/triangle_chess_base_hexagon_colored_2_red_with_different_geometry.obj-971a36a25fe9dbd24588aba602edbbd1.mesh", "res://.godot/imported/triangle_chess_base_hexagon_colored_2_red_with_different_geometry.obj-971a36a25fe9dbd24588aba602edbbd1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dyt42op5228ai"
+path="res://.godot/imported/rook_defender.obj-4e1139fa397476efb4f970e40fc84aa2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rook_defender.obj-4e1139fa397476efb4f970e40fc84aa2.mesh"]
+
+source_file="res://Imports/rook_defender.obj"
+dest_files=["res://.godot/imported/rook_defender.obj-4e1139fa397476efb4f970e40fc84aa2.mesh", "res://.godot/imported/rook_defender.obj-4e1139fa397476efb4f970e40fc84aa2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

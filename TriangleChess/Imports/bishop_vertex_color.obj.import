@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://crex8ok7x4u18"
+path="res://.godot/imported/bishop_vertex_color.obj-16ec293d1e1c98c2e2b768a85f59febf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bishop_vertex_color.obj-16ec293d1e1c98c2e2b768a85f59febf.mesh"]
+
+source_file="res://Imports/bishop_vertex_color.obj"
+dest_files=["res://.godot/imported/bishop_vertex_color.obj-16ec293d1e1c98c2e2b768a85f59febf.mesh", "res://.godot/imported/bishop_vertex_color.obj-16ec293d1e1c98c2e2b768a85f59febf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
