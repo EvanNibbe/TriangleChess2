@@ -36,12 +36,12 @@ sudo apt-get install -y \
   libxrandr-dev
   
 
-Once you have the scons build system in place, you can use the following code snippet each time you want to run the engine after first setting up the engine or after making changes to the Godot engine source code.
-rm -fdR TriangleChess2
-git clone https://github.com/EvanNibbe/TriangleChess2.git
-cd TriangleChess2
-cd godot
-scons target=editor CXXFLAGS=-O3 use_lto=yes platform=linuxbsd
+Once you have the scons build system in place, you can use the following code snippet each time you want to run the engine after first setting up the engine or after making changes to the Godot engine source code. <br>
+rm -fdR TriangleChess2 <br>
+git clone https://github.com/EvanNibbe/TriangleChess2.git <br>
+cd TriangleChess2 <br>
+cd godot <br>
+scons target=editor CXXFLAGS=-O3 use_lto=yes platform=linuxbsd <br>
 
 # Compiling with MacOS
 cd ~                                                                                                                <br>
