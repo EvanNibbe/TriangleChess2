@@ -2,14 +2,14 @@
 The previous TriangleChess lacked an AI to play against. This version technically has an AI you can play against, however you can't associate the word "intelligence" with this AI since it is both basically deterministic and very stupid. As of the time of the original publication I could use just one rook to capture 7 pawns.
 
 # Playing
-Once you have the engine compiled, you run the executable on your computer (this is a standalone executable that can be moved to any folder and still run just fine) 
-That executable would be in the TriangleChess2/godot/bin folder.
-When you run the executable, you should see a pop-up in the middle of your screen with buttons internal to that window.
-Press "scan", and then find the TriangleChess2/TriangleChess folder.
-Press "choose current folder".
-Once the new window loads with the TriangleChess assets, you should press the " ▶ " button in the top right, which plays the main scene or the current scene you are in. (Currently Board.tscn is where you need to be in order to play a game of chess.)
-Click on a piece and wait a second for a couple triangles to turn orange, which are the spots you can move a piece to.
-If clicking on a piece doesn't seem to work properly, click on a different piece, wait a second, and then click on the piece you actually want to move.
+Once you have the engine compiled, you run the executable on your computer (this is a standalone executable that can be moved to any folder and still run just fine) <br>
+That executable would be in the TriangleChess2/godot/bin folder. <br>
+When you run the executable, you should see a pop-up in the middle of your screen with buttons internal to that window. <br>
+Press "scan", and then find the TriangleChess2 folder and then enter the TriangleChess folder inside that higher folder. <br>
+Press "select current folder". <br>
+Once the new window loads with the TriangleChess assets, you should press the " ▶ " button in the top right, which plays the main scene or the current scene you are in. (Currently Board.tscn is where you need to be in order to play a game of chess.) <br>
+Click on a piece and wait a second for a couple triangles to turn orange, which are the spots you can move a piece to. <br>
+If clicking on a piece doesn't seem to work properly, click on a different piece, wait a second, and then click on the piece you actually want to move. <br>
 
 ## Compilation Instructions
 See https://docs.godotengine.org/en/stable/contributing/development/compiling/index.html#toc-devel-compiling
