@@ -19,21 +19,8 @@ See https://docs.godotengine.org/en/stable/contributing/development/compiling/in
 # Linux
 If you don't already have the scons build system, the instructions on https://docs.godotengine.org/en/stable/contributing/development/compiling/compiling_for_linuxbsd.html
 have you use the Ubuntu one-liner to get going of: 
-sudo apt-get update
-sudo apt-get install -y \
-  build-essential \
-  scons \
-  pkg-config \
-  libx11-dev \
-  libxcursor-dev \
-  libxinerama-dev \
-  libgl1-mesa-dev \
-  libglu1-mesa-dev \
-  libasound2-dev \
-  libpulse-dev \
-  libudev-dev \
-  libxi-dev \
-  libxrandr-dev
+sudo apt-get update <br>
+sudo apt-get install -y  build-essential  scons  pkg-config  libx11-dev libxcursor-dev libxinerama-dev libgl1-mesa-dev libglu1-mesa-dev libasound2-dev libpulse-dev libudev-dev libxi-dev libxrandr-dev
   
 
 Once you have the scons build system in place, you can use the following code snippet each time you want to run the engine after first setting up the engine or after making changes to the Godot engine source code. <br>
