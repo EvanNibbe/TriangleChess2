@@ -1573,7 +1573,13 @@ int random_inc(Node3D* res_piece, int num_spot) {
 	}
 	return 1;
 }
-
+float random_float(Node3D *non_null) {
+	float res=(float)(random_inc(non_null, 50)-1);
+	for (int i=0; i<16; i++) {
+		res=((float)(random_inc(non_null, 50)-1))+res/2;
+	}
+	return res;
+}
 
 #define POSSIBLE_NTH 60
 Node3D* move_node_array[POSSIBLE_NTH];
@@ -1814,7 +1820,8 @@ bool have_pieces_moved(Array my_pieces, Array human_pieces) {
 	return result;
 }
 
-
+bool random_push_vector_chosen=false;
+Vector3 random_push_spot=Vector3(0,0,0);
 
 Vector3 fast_make_move_best_move=Vector3(0,0,0); //the static assignment of space for holding the resultant best move.
 Node3D* OmniLight3D::fast_make_move(Array my_pieces, float my_king_start_x, float my_king_start_y, float my_king_start_z, Array human_pieces, float human_king_start_x, float human_king_start_y, float human_king_start_z, Array possible_positions, int nth_optimal, int recurse_level) {
@@ -2064,6 +2071,13 @@ Node3D* OmniLight3D::fast_make_move(Array my_pieces, float my_king_start_x, floa
 		float ai_v=-20000;
 		if (true || nth_optimal!=0) {
 			
+			//I should change the algorithm to use Tom 7 (PhD C.S.)'s CCCP chess algorithim.
+			//First I need to prioritize making a move that results in checkmating the human.
+			//Secondarily prioritize making a move that (safely) checks the human king
+			//Tertiarily prioritize making a move that captures (either a safe capture, or a capture of a piece more valuable than the next piece the opponent would be able to capture on the human turn).
+			//Quartinarily prioritize making a "push" move, which I will revise to increase randomness by choosing a random spot
+				//about halfway between two pawns 
+			
 			Node3D *res_piece=nullptr;
 			float cur_ai_v=-10000;
 			Vector3 atkdpst=Vector3_ZERO;
@@ -2075,10 +2089,12 @@ Node3D* OmniLight3D::fast_make_move(Array my_pieces, float my_king_start_x, floa
 					//println(__LINE__); //this is where execution seemed to have ended, which is weird, since all I changed from the run where it reached 2202 was just adding in the 2167 println and the best_node==nullptr and res_piece==nullptr tests.
 					Vector3 spot=possible_positions[j];
 					Vector3 end=spot;
+					println(__LINE__);
 					if (already_visited(to_move, end) ) {
 						continue; //do not check this loop iteration
 					} else if (fast_can_move_to(to_move, start, end, _my_pieces, my_king_start,  _human_pieces,  human_king_start, accepted_positions)) {
 						cur_ai_v=(float)(fast_board_value(to_move, end, _my_pieces, my_king_start,  _human_pieces,  human_king_start,  _possible_positions, accepted_positions));
+						println(__LINE__);
 						//AI specific condition, the human uses <
 						if ((cur_ai_v>ai_v || best_node==nullptr) ) {
 							//println(__LINE__);
